@@ -2,6 +2,8 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
+  if (num % 3 == 0 && num % 5 == 0) && !(num % 5 == 0 || num % 3 == 0)
+    puts "FizzBuzz"
   if num % 3 ==  0 
     puts "Fizz"
     elsif num % 5 == 0 
